@@ -424,6 +424,7 @@ nav .menu-btn,
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 3rem 0 3rem;
 }
 
 #contact h1 {
@@ -971,5 +972,9 @@ img{
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.mmt{
+  font-size: large;
 }

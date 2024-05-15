@@ -40,7 +40,7 @@ const Contact = () => {
                                 <h5>Faça-nos uma visita</h5>
                                 <div className="divider margin-v2"></div>
                                 <p className="paragraph-small text-grey">
-                                    <a href="https://goo.gl/maps/DkuswLAHFVmkgJ4d7" target="_blank" className="link-2">Rua tatatatata</a>
+                                    <a href="https://goo.gl/maps/DkuswLAHFVmkgJ4d7" target="_blank" className="link-2">R. Emancipação, Picada Café - RS, 95175-000</a>
                                 </p>
                             </div>
                         </div>
