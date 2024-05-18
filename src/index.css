@@ -620,14 +620,6 @@ nav .menu-btn,
     width: 70px;
   }
 
-  .header-btns {
-    margin: 0;
-  }
-
-  .pr-btns {
-    margin: 0;
-  }
-
   .menu {
     display: none;
     position: absolute;
@@ -804,18 +796,19 @@ html.w-mod-touch * {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media (max-width: 480px) {
   .features-v2 {
-      flex-direction: row;
+    flex-direction: column; /* Stacks items vertically */
+    gap: 20px; /* Reduces the gap between items */
   }
 
   .feature-v2 {
-      margin-bottom: 0; /* Remova a margem entre as features */
-      margin-right: 20px; /* Adicione margem entre as features */
+    flex-direction: column; /* Stacks the icon and text vertically */
+    align-items: flex-start; /* Aligns items to the start */
   }
 
-  .feature-v2:last-child {
-      margin-right: 0; /* Remova a margem da última feature */
+  .feature-side-info {
+    margin-top: 10px; /* Adds space between the icon and the text */
   }
 }
 

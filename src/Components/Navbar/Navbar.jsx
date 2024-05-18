@@ -12,7 +12,7 @@ const Navbar = ({ toggleTheme, theme }) => {
             </Link>
 
             <input type="checkbox" className='menu-btn' id='menu-btn'/>
-            <label className='nav-icon' htmlFor="menu-btn">
+            <label className='menu-icon' htmlFor="menu-btn">
                 <span className='nav-icon'></span>
             </label>
 
@@ -24,7 +24,6 @@ const Navbar = ({ toggleTheme, theme }) => {
                 <li><Link to='contact' smooth={true} duration={2000}>Contato</Link></li>
             </ul>
 
-            {/* Ícone de alternância de modo */}
             <button className="toggle-mode-btn icons" onClick={toggleTheme}>
                 {theme === 'dark' ? <UilSun color="#fff" size="25" background="transparent" /> : <UilMoon color="black" size="25" />}
             </button>

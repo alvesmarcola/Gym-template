@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-
-// Icons
+import React from 'react';
 import { UilWhatsapp, UilHouseUser, UilPhone } from '@iconscout/react-unicons';
 
 const Contact = () => {
