@@ -6,7 +6,7 @@ import imgTwo from '../../images/2.svg';
 import imgThree from '../../images/3.svg';
 import imgFour from '../../images/4.svg';
 
-import './features.css'; // Importando o arquivo de estilo CSS
+import './features.css'; // 
 
 const Features = ({ toggleTheme }) => { 
     return (
